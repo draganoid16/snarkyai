@@ -11,6 +11,6 @@ app.get('/get-api-key', (req, res) => {
     res.json({ apiKey: API_KEY });
 });
 
-app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Server is running on http://0.0.0.0:${PORT}`);
 });

@@ -4,6 +4,7 @@
   "description": "",
   "main": "snarkyai.js",
   "scripts": {
+    "start": "node snarkyai.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
